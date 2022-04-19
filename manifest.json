@@ -1,0 +1,15 @@
+{
+  "name": "Serail Port Reader by Myakotin-AYu",
+  "description": "App for barcode",
+  "version": "0.1",
+  "manifest_version": 2,  
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": [
+		"serial"
+	],
+  "icons": { "16": "icon_16.png", "128": "icon_128.png" }
+}
